@@ -1,0 +1,228 @@
+:root{
+    --text-color: #e8e8e8;
+}
+
+html{
+    min-width: 400px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+}
+
+#main{
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+    height: 60px;
+    box-sizing: border-box;
+
+}
+
+    .nav-left{
+        margin-left: 15px;
+    }
+    
+    .nav-left a{
+        padding: 5px;
+        margin: 0 5px;
+        display: inline-block;
+        color: var(--text-color);
+        text-decoration: none;
+    }   
+
+    .nav-right{
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        min-width: auto;
+        padding: 4px;
+        margin-right: 10px;
+        
+    }
+
+    .nav-right a{
+        text-decoration: none;
+        padding: 5px;
+        margin: 0 5px;
+        color: var(--text-color);
+        font-size: 13px;
+    }
+
+    .nine-dots-container{
+        height: 22px;
+    }
+
+    .nine-dots{
+        height: 24px;
+        width: 24px;
+        border: none;
+        fill: var(--text-color);
+        margin-right: 5px; 
+    }
+
+    .profile-container{
+        margin: 15px;
+    }
+    .profile{
+        text-decoration: none;
+        font-weight: 510;
+        font-size: 16px;
+        color: var(--text-color);
+        background-color: rgb(253, 87, 26);
+        border-radius: 50%;
+        padding: 7px;
+        padding-left: 8.5px;
+        padding-right: 8.5px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    height: calc(100vh - 560px);
+    max-height: 290px;
+}
+
+    .google-logo{
+        max-height: 92px;
+        position: relative;
+        height: 100%;
+        margin-top: auto;
+        flex-shrink: 0;
+    }
+
+    .logo{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        height: 100%;
+        width: auto;
+    }
+
+.search-bar{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+    .search-form{
+        margin: 0 auto;
+        width: auto;
+        max-width: 584px;
+        padding-top: 6px;
+        position: relative;;
+    }
+
+    .search{
+        background: transparent;
+        border-radius: 24px;
+        width: 100%;
+        padding-bottom: 25px;
+        border: 2px solid #5f6368;
+    }
+
+
+.buttons{
+    height: 70px;
+    max-width: 584px;
+    width: auto;
+    padding-top: 18px;
+    position: relative;
+    margin-left: 150px;
+}
+
+    .google-search{
+        background-color: #303134;
+        border: 1px solid #303134;
+        color: var(--text-color);
+        border-radius: 4px;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+    }    
+
+    .lucky{
+        background-color: #303134;
+        border: 1px solid #303134;
+        color: var(--text-color);
+        border-radius: 4px;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.footer-container{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #171717FF;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+    .uk{
+        padding: 1px 30px;
+        border-bottom: 1px solid #303134;
+        font-size: 15px;
+        color: var(--text-color);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .bottom-info{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        justify-content: space-evenly;
+    }
+
+    .bottom-left{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+
+    .bottom-middle{
+        display: block;
+        white-space: nowrap;
+        
+
+    }
+    .bottom-right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+    }
+
+    .bottom-info a{
+        color: var(--text-color);
+        text-decoration: none;
+    }
+
